@@ -21,3 +21,11 @@
 
 # 三. webpack 插件 HtmlWebpackPlugin的使用
 1. npm install html-webpack-plugin -D 详情配置向可见webpack03文件夹 
+
+
+# 四. webpack mode选项
+1. mode 可选值为 development, production
+
+2. 使用sourcemap 调试, 能具体看到代码报错行数,精准定位错误
+
+3. 使用npm install webpack-dev-server -D 热加载，能自动刷新浏览器。
