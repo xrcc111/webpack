@@ -18,3 +18,6 @@
 6. 命令行太麻烦，所以新建webpack.config.js 来配置webpack 的打包环境, 因为在node中，所以该文件的配置项需要使用且要符合Common.js
    的语法规范
 7. 详细可参照webpack02中的自定义配置的 webpack.config.js
+
+# 三. webpack 插件 HtmlWebpackPlugin的使用
+1. npm install html-webpack-plugin -D 详情配置向可见webpack03文件夹 
