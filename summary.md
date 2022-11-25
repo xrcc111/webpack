@@ -29,3 +29,11 @@
 2. 使用sourcemap 调试, 能具体看到代码报错行数,精准定位错误
 
 3. 使用npm install webpack-dev-server -D 热加载，能自动刷新浏览器。
+
+# 五. 环境资源模块介绍
+
+1. resource资源 (常用于.png 文件)
+
+2. inline资源 (常用于.svg文件)
+
+3. source资源 (常用于.txt文件)
