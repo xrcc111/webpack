@@ -32,8 +32,11 @@
 
 # 五. 环境资源模块介绍
 
-1. resource资源 (常用于.png 文件)
+1. resource资源 (常用于.png 文件) asset/resource
 
-2. inline资源 (常用于.svg文件)
+2. inline资源 (常用于.svg文件) asset/line
 
-3. source资源 (常用于.txt文件)
+3. source资源 (常用于.txt文件) asset/source
+
+4. 通用资源类型  asset 基于resource资源和source资源之间大小判断
+判断依据基于 paser下的 dataUrlCondition 的maxSize属性设置，默认值为 4 * 1024
