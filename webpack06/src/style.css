@@ -1,0 +1,7 @@
+body{
+ background: #ccc;
+}
+
+.block-bg{
+  background-image: url('./assets/about-banner.png')!important;
+}

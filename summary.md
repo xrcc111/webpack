@@ -40,3 +40,16 @@
 
 4. 通用资源类型  asset 基于resource资源和source资源之间大小判断
 判断依据基于 paser下的 dataUrlCondition 的maxSize属性设置，默认值为 4 * 1024
+
+
+# 六. loader
+1. css loader 以及 style loader  加载顺序符合链式调用, 其他的less，和sass,等也可。
+
+2.  1.npm install mini-css-extract-plugin -D  抽离css资源
+    2.npm install css-minimizer-webpack-plugin -D  压缩css并且需要把mode的值更新为production
+
+3. 加载image资源,直接可以使用
+
+4. 加载font字体,加载xml, csv, yaml, toml, json5等，详情可看官网文档
+
+总结： 让webapack去处理其他类型文件，转化成有效模块供我们使用。
