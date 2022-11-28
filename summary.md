@@ -53,3 +53,13 @@
 4. 加载font字体,加载xml, csv, yaml, toml, json5等，详情可看官网文档
 
 总结： 让webapack去处理其他类型文件，转化成有效模块供我们使用。
+
+#  七. 使用bable-loader
+1. 把js代码解析成es5,兼容低版本浏览器，省去浏览器解析时间。 
+
+#  八. 代码分离
+1. 入口起点(使用entry配置手动地分离代码)
+
+2. 防止重复(使用entry dependencies或者 splitchunksplugin)去重和分离代码
+
+3. 动态导入(模块内联函数导入)   
